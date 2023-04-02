@@ -1,0 +1,52 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+.blog-img {
+  width: 100%;
+}
+.blog-content {
+  font-size: 40px;
+}
+.btn{
+    border: none;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 15px 5px;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+/* -------mobile screen-------- */
+
+@media(max-width:576px){
+    .container{
+        width: auto;
+    }
+    .btn{
+        /* chee pooo */
+        display: none;
+        
+    }
+
+}
+/* @media(max-width:767px){
+    .container{
+        width: auto;
+    }
+    .btn{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 252, 252);
+
+    }
+
+} */
+
